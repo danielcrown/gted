@@ -19,7 +19,7 @@
                     <img src="images/home/7.jpg" alt="党员园地">
                     <div class="caption font-color">
                         <h5 class="font-color">党员园地</h5>
-                        <%--<p class="font-color">建设中</p>--%>
+                        <%--<p class="font-color">建设中hah</p>--%>
                     </div>
                 </div>
             </a>
