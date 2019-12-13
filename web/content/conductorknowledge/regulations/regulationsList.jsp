@@ -31,6 +31,14 @@
 <c:set var="listDetailSummary" value="铁路旅客运输规程" scope="page"/>
 <%@include file="/content/componet/listMoudle.jsp"%>
 
+<%--动车组列车服务质量规范 --%>
+<c:set var="listDetail" value="recontent3/recontent3.jsp" scope="page"/>
+<c:set var="listDetailImg" value="/images/conductorknowledge/regulations/recontent1/1.png" scope="page"/>
+<c:set var="listDetailImgAlt" value="动车组列车服务质量规范 " scope="page"/>
+<c:set var="listDetailTitle" value="动车组列车服务质量规范 " scope="page"/>
+<c:set var="listDetailSummary" value="动车组列车服务质量规范 " scope="page"/>
+<%@include file="/content/componet/listMoudle.jsp"%>
+
 <jsp:include page="/content/componet/navClose.jsp" flush="true" />
 <jsp:include page="/content/componet/footer.jsp" flush="true" />
 <jsp:include page="/content/componet/refer.jsp" flush="true" />

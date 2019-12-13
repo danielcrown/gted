@@ -48,6 +48,24 @@
 <c:set var="listDetailSummary" value="应急处置流程" scope="page" />
 <%@include file="/content/componet/listMoudle.jsp" %>
 
+<%--办公工具--%>
+<c:set var="listDetail" value="conductorTools/ctList.jsp" scope="page" />
+<c:set var="listDetailImg" value="/images/conductorknowledge/conductorTools/tools.png"
+       scope="page" />
+<c:set var="listDetailImgAlt" value="办公工具" scope="page" />
+<c:set var="listDetailTitle" value="办公工具" scope="page" />
+<c:set var="listDetailSummary" value="办公工具汇总" scope="page" />
+<%@include file="/content/componet/listMoudle.jsp" %>
+
+<%--必知必会--%>
+<c:set var="listDetail" value="mustknow/msList.jsp" scope="page" />
+<c:set var="listDetailImg" value="/images/conductorknowledge/mustknow/mustknow.png"
+       scope="page" />
+<c:set var="listDetailImgAlt" value="必知必会" scope="page" />
+<c:set var="listDetailTitle" value="必知必会" scope="page" />
+<c:set var="listDetailSummary" value="必知必会" scope="page" />
+<%@include file="/content/componet/listMoudle.jsp" %>
+
 <jsp:include page="/content/componet/navClose.jsp" flush="true" />
 <jsp:include page="/content/componet/footer.jsp" flush="true" />
 <jsp:include page="/content/componet/refer.jsp" flush="true" />

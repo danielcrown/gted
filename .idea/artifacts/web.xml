@@ -1,16 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="war" build-on-make="true" name="web">
+  <artifact type="exploded-war" name="web">
     <output-path>$PROJECT_DIR$/out/artifacts/web</output-path>
-    <root id="archive" name="web.war">
-      <element id="directory" name="WEB-INF">
-        <element id="directory" name="classes">
-          <element id="module-output" name="TempBootstrap" />
-        </element>
-        <element id="directory" name="lib">
-          <element id="library" level="project" name="lib" />
-        </element>
-      </element>
-      <element id="javaee-facet-resources" facet="TempBootstrap/web/Web" />
-    </root>
+    <root id="root" />
   </artifact>
 </component>
